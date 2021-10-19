@@ -1,9 +1,9 @@
 //get button
-const button = document.querySelector('button');
+const button = document.querySelector('#palindrome-section button');
 //get text field
-const textField = document.querySelector('input');
+const textField = document.querySelector('#palindrome-section input');
 //get output h1
-const outputH1 = document.querySelector('h1');
+const outputH1 = document.querySelector('#palindrome-section h1');
 
 function isPalindrome(word){
     //new array with reverse indexes
